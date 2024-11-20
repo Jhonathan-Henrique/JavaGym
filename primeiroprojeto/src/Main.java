@@ -6,6 +6,7 @@ public class Main {
     int anoDeLancamento = 2014;
     double notaDoFilme = 8.7;
     boolean disponivel = true;
+    double media = (9.8 + 6.3 + 8.0) / 3;
     String sinopse;
     sinopse = """
             Uma equipe de exploradores viaja através de um buraco de minhoca no espaço, 
@@ -14,6 +15,8 @@ public class Main {
 
         System.out.println(sinopse);
 
+        int classificacao = (int) media / 2;
+        System.out.println(classificacao);
 
     }
 }
